@@ -1,0 +1,75 @@
+Model info: {'model': <class 'h2o.estimators.glm.H2OGeneralizedLinearEstimator'>, 'model_name': 'GLM', 'hyper_params': {'alpha': [0, 0.2, 0.4, 0.6, 0.8, 1], 'lambda': [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]}, 'params': {'family': 'binomial'}}
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz', 'katz_shuffled', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank', 'pagerank_shuffled', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+Best hyper parameters: {'alpha': 0, 'lambda': 0.0001}
+
+Best model id: aaa81d16cda1bf620bd5cce2977eeb52c71b2f32f67e9faf0f7cc38d8acbd6c9
+
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness_shuffled', 'closeness_shuffled', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz_shuffled', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank_shuffled', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+Best hyper parameters: {'alpha': 1, 'lambda': 0.0001}
+
+Best model id: 8e6d6d0d2b4fb095e27a4b8e763989c4785f7fcaf44580714acb060ce0190b54
+
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz', 'katz_shuffled', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank', 'pagerank_shuffled', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness', 'closeness', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+Best hyper parameters: {'alpha': 0, 'lambda': 0.0001}
+
+Best model id: 2a802defcbb7ba9abb6f5d19f3ea32e21936038bfcfdb91a84912c02dd5c6e59
+
+
+Model info: {'model': <class 'h2o.estimators.random_forest.H2ORandomForestEstimator'>, 'model_name': 'RF', 'hyper_params': {'ntrees': [50, 100, 150, 200, 250], 'max_depth': [5, 10, 15, 20]}, 'params': {}}
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz', 'katz_shuffled', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank', 'pagerank_shuffled', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+Best hyper parameters: {'ntrees': 150, 'max_depth': 20}
+
+Best model id: cc42535c5258b9de8b41e7ada1b6b87e41e9b344e4dc4f0c02d5772e3eabf2ba
+
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness_shuffled', 'closeness_shuffled', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz_shuffled', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank_shuffled', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+Best hyper parameters: {'ntrees': 150, 'max_depth': 20}
+
+Best model id: d36482d3f3bc7f1f05009816190338418c6855c757633274513266d1e7f09260
+
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz', 'katz_shuffled', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank', 'pagerank_shuffled', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness', 'closeness', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+Best hyper parameters: {'ntrees': 250, 'max_depth': 20}
+
+Best model id: 3f3164f511908f18cbfa129822e916413cf84d62eb1906c0d6198d73f1b17452
+
+
+Model info: {'model': <class 'h2o.estimators.deeplearning.H2ODeepLearningEstimator'>, 'model_name': 'DL', 'hyper_params': {'hidden': [[50, 50], [100, 100], [200, 200], [100, 200, 100], [200, 100, 200]], 'epochs': [10, 50, 100]}, 'params': {}}
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz', 'katz_shuffled', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank', 'pagerank_shuffled', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+Best hyper parameters: {'hidden': [100, 200, 100], 'epochs': 10}
+
+Best model id: a65c6ff2f137d6997df5b6ddfdd910a389df2546b3ae177f948dade300eac696
+
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness_shuffled', 'closeness_shuffled', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz_shuffled', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank_shuffled', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+Best hyper parameters: {'hidden': [200, 100, 200], 'epochs': 10}
+
+Best model id: ec8bdb483246b699ff175eb5edc084b94e035f6b9d4129123cee09a05db69fd7
+
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz', 'katz_shuffled', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank', 'pagerank_shuffled', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+['A', 'Administrative', 'AmountOfPreviousLoansBeforeLoan', 'Art.entertainment', 'Construction', 'Energy', 'FreeCash.l', 'Hospitality.catering', 'Hour.12', 'Hour.19', 'Hour.2', 'Hour.3', 'Hour.9', 'Interest', 'Real.estate', 'Research', 'authority', 'authority_shuffled', 'betweenness', 'closeness', 'depen.0', 'depen.1', 'depen.4', 'eigenvector', 'eigenvector_shuffled', 'em.dur.trial', 'employ.2', 'employ.3', 'employ.4', 'employ.6', 'exper.10y', 'hub', 'hub_shuffled', 'inc.child.l', 'inc.fam.all.l', 'inc.leave.l', 'inc.other.l', 'inc.pension.l', 'inc.princ.empl.l', 'inc.soc.wel.l', 'inc.support', 'inc.total', 'katz', 'liab.l', 'marital.5', 'no.previous.loan.00', 'no.previous.repay.00', 'no.previous.repay.01', 'no.refin.04', 'pagerank', 'previous.repay.l', 'weekday.2', 'weekday.4', 'weekday.6']
+
+Best hyper parameters: {'hidden': [100, 200, 100], 'epochs': 10}
+
+Best model id: 18bb41ae0b910535bef8bf5d32496b30f28d5c808e490751093571aff41ff919
+
+

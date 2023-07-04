@@ -1,0 +1,5 @@
+{'model': <class 'h2o.estimators.glm.H2OGeneralizedLinearEstimator'>, 'model_name': 'GLM', 'hyper_params': {'alpha': [0, 0.2, 0.4, 0.6, 0.8, 1], 'lambda': [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]}, 'params': {'family': 'binomial'}}
+{'model': <class 'h2o.estimators.random_forest.H2ORandomForestEstimator'>, 'model_name': 'RF', 'hyper_params': {'ntrees': [50, 100, 150, 200, 250], 'max_depth': [5, 10, 15, 20]}, 'params': {}}
+{'model': <class 'h2o.estimators.deeplearning.H2ODeepLearningEstimator'>, 'model_name': 'DL', 'hyper_params': {'hidden': [[50, 50], [100, 100], [200, 200], [100, 200, 100], [200, 100, 200]], 'epochs': [10, 50, 100]}, 'params': {}}
+{'model': <class 'h2o.estimators.xgboost.H2OXGBoostEstimator'>, 'model_name': 'XGB', 'hyper_params': {'ntrees': [100, 200], 'max_depth': [5, 15], 'learn_rate': [0.01, 0.1, 0.2], 'sample_rate': [0.6, 0.8, 1.0]}, 'params': {}}
+{'model': <class 'h2o.estimators.gbm.H2OGradientBoostingEstimator'>, 'model_name': 'GBM', 'hyper_params': {'ntrees': [100, 200], 'max_depth': [5, 15], 'learn_rate': [0.01, 0.1, 0.2], 'sample_rate': [0.6, 0.8, 1.0]}, 'params': {}}
