@@ -1,0 +1,25 @@
+Model info: {'model': <class 'h2o.estimators.glm.H2OGeneralizedLinearEstimator'>, 'model_name': 'GLM', 'hyper_params': {'alpha': [0, 0.2, 0.4, 0.6, 0.8, 1], 'lambda': [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]}, 'params': {'family': 'binomial'}}
+
+['authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'katz_shuffled', 'pagerank', 'pagerank_shuffled']
+
+Best hyper parameters: {'alpha': 0.2, 'lambda': 0.0001}
+
+Best model id: 5a8ebf203943cb97f92ab6f4f641e9e7a2303ef40e9c95fc75d63759ab2306e1
+
+
+['authority', 'authority_shuffled', 'betweenness_shuffled', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz_shuffled', 'pagerank_shuffled']
+
+Best hyper parameters: {'alpha': 0, 'lambda': 0.0001}
+
+Best model id: bc0ae29acf90d329fad705919260e009ddb64b7cc0c3b3cff4d42d76428286e3
+
+
+['authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'katz_shuffled', 'pagerank', 'pagerank_shuffled']
+
+['authority', 'authority_shuffled', 'betweenness', 'closeness', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'pagerank']
+
+Best hyper parameters: {'alpha': 0.2, 'lambda': 0.0001}
+
+Best model id: eaa2e128effaa12a3dd05b4ce8516e2f928b4df72d1d6ea83cabd73cefc5f099
+
+
