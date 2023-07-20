@@ -1,0 +1,50 @@
+Model info: {'model': <class 'h2o.estimators.random_forest.H2ORandomForestEstimator'>, 'model_name': 'RF', 'hyper_params': {'ntrees': [50, 100, 150, 200, 250], 'max_depth': [5, 10, 15, 20]}, 'params': {}}
+
+['authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'katz_shuffled', 'pagerank', 'pagerank_shuffled']
+
+Best hyper parameters: {'ntrees': 250, 'max_depth': 20}
+
+Best model id: 48fb5634f5eb4175d9a16062d075bbbb454a97ef2560d0ac5e13b6264064464b
+
+
+['authority', 'authority_shuffled', 'betweenness_shuffled', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz_shuffled', 'pagerank_shuffled']
+
+Best hyper parameters: {'ntrees': 250, 'max_depth': 20}
+
+Best model id: c4ce3cee3723654bef090339dea65e11487c1d5e62170b03af9a4ce86b1e7b89
+
+
+['authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'katz_shuffled', 'pagerank', 'pagerank_shuffled']
+
+['authority', 'authority_shuffled', 'betweenness', 'closeness', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'pagerank']
+
+Best hyper parameters: {'ntrees': 250, 'max_depth': 20}
+
+Best model id: f3dc6363a41c926cbe19cb8a5b5d1fe8798bf6bcedaa01c51ce7dce283e98d68
+
+
+Model info: {'model': <class 'h2o.estimators.deeplearning.H2ODeepLearningEstimator'>, 'model_name': 'DL', 'hyper_params': {'hidden': [[50, 50], [100, 100], [200, 200], [100, 200, 100], [200, 100, 200]], 'epochs': [10, 50, 100]}, 'params': {}}
+
+['authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'katz_shuffled', 'pagerank', 'pagerank_shuffled']
+
+Best hyper parameters: {'hidden': [200, 200], 'epochs': 10}
+
+Best model id: 82b4a1e0ff5ef657a0b164b4ef71b7953f40b52aeb845c0d0890cf105b5ff802
+
+
+['authority', 'authority_shuffled', 'betweenness_shuffled', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz_shuffled', 'pagerank_shuffled']
+
+Best hyper parameters: {'hidden': [200, 100, 200], 'epochs': 10}
+
+Best model id: 9896077936c2887aa745130c41268a5b0ba19e0e94e02e944af736f0db27132f
+
+
+['authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'katz_shuffled', 'pagerank', 'pagerank_shuffled']
+
+['authority', 'authority_shuffled', 'betweenness', 'closeness', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'pagerank']
+
+Best hyper parameters: {'hidden': [200, 200], 'epochs': 10}
+
+Best model id: 4da6237525c1316caf06200bec8cc35fc3fb94b703b2481eb0735b8bc17884cd
+
+
