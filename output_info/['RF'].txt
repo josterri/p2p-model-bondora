@@ -1,0 +1,25 @@
+Model info: {'model': <class 'h2o.estimators.random_forest.H2ORandomForestEstimator'>, 'model_name': 'RF', 'hyper_params': {'ntrees': [50, 100, 150, 200, 250], 'max_depth': [5, 10, 15, 20]}, 'params': {}}
+
+['authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'katz_shuffled', 'pagerank', 'pagerank_shuffled']
+
+Best hyper parameters: {'ntrees': 250, 'max_depth': 20}
+
+Best model id: 48fb5634f5eb4175d9a16062d075bbbb454a97ef2560d0ac5e13b6264064464b
+
+
+['authority', 'authority_shuffled', 'betweenness_shuffled', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz_shuffled', 'pagerank_shuffled']
+
+Best hyper parameters: {'ntrees': 200, 'max_depth': 20}
+
+Best model id: 9f07d9c72536ffedde6b104e86e2f42e26522d4ff155a30a4a37a4200ff077c5
+
+
+['authority', 'authority_shuffled', 'betweenness', 'betweenness_shuffled', 'closeness', 'closeness_shuffled', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'katz_shuffled', 'pagerank', 'pagerank_shuffled']
+
+['authority', 'authority_shuffled', 'betweenness', 'closeness', 'eigenvector', 'eigenvector_shuffled', 'hub', 'hub_shuffled', 'katz', 'pagerank']
+
+Best hyper parameters: {'ntrees': 250, 'max_depth': 20}
+
+Best model id: f3dc6363a41c926cbe19cb8a5b5d1fe8798bf6bcedaa01c51ce7dce283e98d68
+
+
